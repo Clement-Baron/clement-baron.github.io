@@ -11637,6 +11637,7 @@ section.resume-section#realisations{
   }
   .image {
     position: relative;
+    margin-left: -10px;
   }
   .div-web-mobile{
     display: flex;
@@ -11648,7 +11649,7 @@ section.resume-section#realisations{
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 10px;
     grid-column-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: minmax(190px, auto);
 
   }
   .div-web-mobile .block-rea .image:nth-child(1){
@@ -11712,6 +11713,14 @@ section.resume-section#realisations{
 @media screen and (max-width: 615px) {
   .div-web-mobile{
     display: block;
+  }
+  .div-web{
+    display: none;
+  }
+  .image {
+    position: relative;
+    margin-left: -10px;
+    width: 100%;
   }
   .div-web-mobile .block-rea{
     display: grid;
