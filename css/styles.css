@@ -11470,47 +11470,46 @@ section.resume-section .resume-section-content {
   }
 }
 .image:nth-child(1){
-  background-image: url("assets/img/max.jpg");
+  background-image: url("./assets/img/max.jpg");
   transform: rotateY(0deg) translateZ(430px);
 }
 .image:nth-child(2){
-  background-image: url("assets/img/max.jpg");
+  background-image: url("./assets/img/max.jpg");
   transform: rotateY(40deg) translateZ(430px);
 }
 .image:nth-child(3){
-  background-image: url("assets/img/max.jpg");
+  background-image: url("./assets/img/max.jpg");
   transform: rotateY(80deg) translateZ(430px);
 }
 .image:nth-child(4){
-  background-image: url("assets/img/max.jpg");
+  background-image: url("./assets/img/max.jpg");
   transform: rotateY(120deg) translateZ(430px);
 }
 .image:nth-child(5){
-  background-image: url("assets/img/max.jpg");
+  background-image: url("./assets/img/max.jpg");
   transform: rotateY(160deg) translateZ(430px);
 }
 .image:nth-child(6){
-  background-image: url("assets/img/max.jpg");
+  background-image: url("./assets/img/max.jpg");
   transform: rotateY(200deg) translateZ(430px);
 }
 .image:nth-child(7){
-  background-image: url("assets/img/max.jpg");
+  background-image: url("./assets/img/max.jpg");
   transform: rotateY(240deg) translateZ(430px);
 }
 .image:nth-child(8){
-  background-image: url("assets/img/max.jpg");
+  background-image: url("./assets/img/max.jpg");
   transform: rotateY(280deg) translateZ(430px);
 }
 .image:nth-child(9){
-  background-image: url("assets/img/max.jpg");
+  background-image: url("./assets/img/max.jpg");
   transform: rotateY(320deg) translateZ(430px);
 }
-
+.block-jeu{
+  display: flex;
+  justify-content: center;
+}
 .card{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 350px;
   height: 612px;
   background: white;
@@ -11548,14 +11547,14 @@ section.resume-section .resume-section-content {
   width: 100%;
   height: 50%;
   border-radius: 25px 25px 0px 0px;
-  background-image: url("assets/img/max.jpg");
+  background-image: url("./assets/img/jeu-zombie.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
 }
 .card:hover{
-  transform: translate(-50%, -50%) rotateY(180deg);
+  transform: rotateY(180deg);
 }
 .flip-card-back{
   position: absolute;
@@ -11576,6 +11575,7 @@ section.resume-section .resume-section-content {
   text-align: center;
   transform: translate(-50%, -50%);
 }
-.block-jeu, .block-rea{
+
+.block-rea{
   position: relative;
 }
