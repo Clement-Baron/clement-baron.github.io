@@ -11460,6 +11460,7 @@ section.resume-section .resume-section-content {
 .image span{
   margin: auto;
   font-size: 2rem;
+  color: white;
 }
 @keyframes rotate360{
   from{
@@ -11582,4 +11583,13 @@ section.resume-section .resume-section-content {
 
 .block-rea{
   position: relative;
+}
+.div-jeu{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin-right: 10%;
+}
+.div-web{
+  width: 100%;
 }
