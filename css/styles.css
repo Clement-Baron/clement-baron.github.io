@@ -11630,6 +11630,9 @@ section.resume-section#realisations{
     display: none;
   }
   .div-web-mobile{
+    display: block;
+  }
+  .div-web-mobile{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11701,7 +11704,9 @@ section.resume-section#realisations{
 
 
 @media screen and (max-width: 615px) {
-  
+  .div-web-mobile{
+    display: block;
+  }
   .div-web-mobile .block-rea{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
