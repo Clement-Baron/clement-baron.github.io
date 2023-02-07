@@ -11708,7 +11708,7 @@ section.resume-section#realisations{
     grid-row: 5/5;
   }
   .card{
-    height: auto;
+    height: 750px;
   }
 }
 
@@ -11728,7 +11728,7 @@ section.resume-section#realisations{
   }
   .card{
     width: 100%;
-    height: auto;
+    height: 750px;
     margin-bottom: 10%;
   }
   .div-jeu{
