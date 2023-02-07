@@ -11626,11 +11626,17 @@ section.resume-section#realisations{
   display: none;
 }
 @media (min-width: 616px) and (max-width: 991px) {
+  .div-jeu{
+    margin-right: 0;
+  }
   .div-web{
     display: none;
   }
   .div-web-mobile{
     display: block;
+  }
+  .image {
+    position: relative;
   }
   .div-web-mobile{
     display: flex;
