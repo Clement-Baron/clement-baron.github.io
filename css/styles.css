@@ -11541,6 +11541,7 @@ section.resume-section .resume-section-content {
   transition: transform 0.8s;
   transform-style: preserve-3d;
   cursor: pointer;
+  z-index: 50;
 }
 .text-back{
   box-sizing: border-box;
