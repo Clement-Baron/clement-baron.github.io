@@ -11643,54 +11643,54 @@ section.resume-section#realisations{
     background-image: url("../assets/img/Pauesie.png");
     transform: none;
     grid-column: 1/2;
-    grid-row: 1;
+    grid-row: 1/5;
   }
   .div-web-mobile .block-rea .image:nth-child(2){
     background-image: url("../assets/img/Anj-detailing.png");
     transform: none;
     grid-column: 2/2;
-    grid-row: 1;
+    grid-row: 1/5;
   }
   .div-web-mobile .block-rea .image:nth-child(3){
     background-image: url("../assets/img/caen-lazare-notaire.png");
     transform: none;
     grid-column: 1/2;
-    grid-row: 2;
+    grid-row: 2/5;
   }
   .div-web-mobile .block-rea .image:nth-child(4){
     background-image: url("../assets/img/netto-decor.png");
     transform: none;
     grid-column: 2/2;
-    grid-row: 2;
+    grid-row: 2/5;
   }
   .div-web-mobile .block-rea .image:nth-child(5){
     background-image: url("../assets/img/Tour-equipement.png");
     transform: none;
     grid-column: 1/2;
-    grid-row: 3;
+    grid-row: 3/5;
   }
   .div-web-mobile .block-rea .image:nth-child(6){
     background-image: url("../assets/img/boutchoubox.png");
     transform: none;
     grid-column: 2/2;
-    grid-row: 3;
+    grid-row: 3/5;
   }
   .div-web-mobile .block-rea .image:nth-child(7){
     background-image: url("../assets/img/fragrance.png");
     transform: none;
     grid-column: 1/2;
-    grid-row: 4;
+    grid-row: 4/5;
   }
   .div-web-mobile .block-rea .image:nth-child(8){
     background-image: url("../assets/img/agence88.png");
     transform: none;
     grid-column: 2/2;
-    grid-row: 4;
+    grid-row: 4/5;
   }
   .div-web-mobile .block-rea .image:nth-child(9){
     background-image: url("../assets/img/king-meteriaux.png");
     transform: none;
     grid-column: 1/2;
-    grid-row: 5;
+    grid-row: 5/5;
   }
 }
