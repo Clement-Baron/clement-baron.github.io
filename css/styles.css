@@ -11543,6 +11543,7 @@ section.resume-section .resume-section-content {
   font-size: 18px;
   font-weight: 400;
   margin-top: 5%;
+  color:#6c757d;
 }
 .card .tex-back span{
   font-size: 10px;
@@ -11595,4 +11596,7 @@ section.resume-section .resume-section-content {
 }
 section.resume-section#realisations{
   max-width: 100rem;
+}
+.block-jeu a{
+  text-decoration: none;
 }
