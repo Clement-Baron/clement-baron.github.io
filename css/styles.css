@@ -11593,3 +11593,6 @@ section.resume-section .resume-section-content {
 .div-web{
   width: 100%;
 }
+section.resume-section#realisations{
+  max-width: 100rem;
+}
