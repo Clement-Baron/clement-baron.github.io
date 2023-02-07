@@ -11649,7 +11649,7 @@ section.resume-section#realisations{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 10px;
-    grid-column-gap: 10px;
+    grid-column-gap: 25px;
     grid-auto-rows: minmax(190px, auto);
 
   }
