@@ -11630,12 +11630,15 @@ section.resume-section#realisations{
     display: none;
   }
   .div-web-mobile{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .div-web-mobile .block-rea{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
 
   }
@@ -11692,5 +11695,72 @@ section.resume-section#realisations{
     transform: none;
     grid-column: 1/2;
     grid-row: 5/5;
+  }
+}
+
+
+
+@media screen and (max-width: 615px) {
+  
+  .div-web-mobile .block-rea{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+
+  }
+  .div-web-mobile .block-rea .image:nth-child(1){
+    background-image: url("../assets/img/Pauesie.png");
+    transform: none;
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .div-web-mobile .block-rea .image:nth-child(2){
+    background-image: url("../assets/img/Anj-detailing.png");
+    transform: none;
+    grid-column:1;
+    grid-row: 2;
+  }
+  .div-web-mobile .block-rea .image:nth-child(3){
+    background-image: url("../assets/img/caen-lazare-notaire.png");
+    transform: none;
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .div-web-mobile .block-rea .image:nth-child(4){
+    background-image: url("../assets/img/netto-decor.png");
+    transform: none;
+    grid-column: 1;
+    grid-row: 4;
+  }
+  .div-web-mobile .block-rea .image:nth-child(5){
+    background-image: url("../assets/img/Tour-equipement.png");
+    transform: none;
+    grid-column: 1;
+    grid-row: 5;
+  }
+  .div-web-mobile .block-rea .image:nth-child(6){
+    background-image: url("../assets/img/boutchoubox.png");
+    transform: none;
+    grid-column: 1;
+    grid-row: 6;
+  }
+  .div-web-mobile .block-rea .image:nth-child(7){
+    background-image: url("../assets/img/fragrance.png");
+    transform: none;
+    grid-column: 1;
+    grid-row: 7;
+  }
+  .div-web-mobile .block-rea .image:nth-child(8){
+    background-image: url("../assets/img/agence88.png");
+    transform: none;
+    grid-column: 1;
+    grid-row: 8;
+  }
+  .div-web-mobile .block-rea .image:nth-child(9){
+    background-image: url("../assets/img/king-meteriaux.png");
+    transform: none;
+    grid-column: 1;
+    grid-row: 9;
   }
 }
