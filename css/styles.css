@@ -11629,6 +11629,9 @@ section.resume-section#realisations{
   .div-web{
     display: none;
   }
+  .div-web-mobile{
+    display: block;
+  }
   .div-web-mobile .block-rea{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
