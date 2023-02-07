@@ -11506,6 +11506,9 @@ section.resume-section .resume-section-content {
   background-image: url("../assets/img/king-meteriaux.png");
   transform: rotateY(320deg) translateZ(430px);
 }
+.image a{
+  transform: rotateY(320deg) translateZ(430px);
+}
 .block-jeu{
   display: flex;
   justify-content: center;
