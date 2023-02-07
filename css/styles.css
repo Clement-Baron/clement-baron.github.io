@@ -11625,7 +11625,7 @@ section.resume-section#realisations{
 .div-web-mobile{
   display: none;
 }
-@media (max-width: 991px) {
+@media (min-width: 616px) and (max-width: 991px) {
   .div-web{
     display: none;
   }
