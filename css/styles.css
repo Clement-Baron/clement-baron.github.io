@@ -237,7 +237,7 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #17436B;
   text-decoration: underline;
 }
 a:hover {
@@ -11400,7 +11400,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #17436B;
 }
 
 .dev-icons {
@@ -11621,4 +11621,60 @@ section.resume-section#realisations{
 }
 .block-jeu a, .block-rea a{
   text-decoration: none;
+}
+@media (max-width: 991px) {
+  .image:nth-child(1){
+    background-image: url("../assets/img/Pauesie.png");
+    transform: rotateY(0deg) translateZ(250px);
+    background-position: center;
+    background-size: cover;
+  }
+  .image:nth-child(2){
+    background-image: url("../assets/img/Anj-detailing.png");
+    transform: rotateY(30deg) translateZ(250px);
+    background-position: center;
+    background-size: cover;
+  }
+  .image:nth-child(3){
+    background-image: url("../assets/img/caen-lazare-notaire.png");
+    transform: rotateY(60deg) translateZ(250px);
+    background-position: center;
+    background-size: cover;
+  }
+  .image:nth-child(4){
+    background-image: url("../assets/img/netto-decor.png");
+    transform: rotateY(90deg) translateZ(250px);
+    background-position: center;
+    background-size: cover;
+  }
+  .image:nth-child(5){
+    background-image: url("../assets/img/Tour-equipement.png");
+    transform: rotateY(120deg) translateZ(250px);
+    background-position: center;
+    background-size: cover;
+  }
+  .image:nth-child(6){
+    background-image: url("../assets/img/boutchoubox.png");
+    transform: rotateY(150deg) translateZ(250px);
+    background-position: center;
+    background-size: cover;
+  }
+  .image:nth-child(7){
+    background-image: url("../assets/img/fragrance.png");
+    transform: rotateY(180deg) translateZ(250px);
+    background-position: center;
+    background-size: cover;
+  }
+  .image:nth-child(8){
+    background-image: url("../assets/img/agence88.png");
+    transform: rotateY(210deg) translateZ(250px);
+    background-position: center;
+    background-size: cover;
+  }
+  .image:nth-child(9){
+    background-image: url("../assets/img/king-meteriaux.png");
+    transform: rotateY(240deg) translateZ(250px);
+    background-position: center;
+    background-size: cover;
+  }
 }
