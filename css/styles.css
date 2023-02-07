@@ -11534,7 +11534,7 @@ section.resume-section .resume-section-content {
 }
 .card{
   width: 350px;
-  height: 612px;
+  height: auto;
   background: white;
   box-shadow: 0px 4px 4px rgba(223, 0, 255, 0.25);
   border-radius: 25px;
@@ -11721,6 +11721,13 @@ section.resume-section#realisations{
     position: relative;
     margin-left: -10px;
     width: 100%;
+  }
+  .card{
+    width: 100%;
+    height: auto;
+  }
+  .div-jeu{
+    margin-right: 0;
   }
   .div-web-mobile .block-rea{
     display: grid;
